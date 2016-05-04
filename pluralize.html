@@ -1,0 +1,27 @@
+<HTML>
+<body>
+<script>
+
+function pluralize(word) {
+	if(word == "moose") {
+		return "moose";
+	}
+	else if(word == "automaton") {
+		return "automata";
+	}
+	else if(word == "mouse") {
+		return "mice";
+	}
+	else {
+		return word + "s";
+	}
+}
+
+var input = prompt("enter a word");
+var init = pluralize(input);
+
+console.log(init);
+
+</script>
+</body>
+</HTML>
